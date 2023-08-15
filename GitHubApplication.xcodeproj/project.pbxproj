@@ -368,10 +368,10 @@
 		9CD879C82A8C029900394225 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				9CD879C92A8C029900394225 /* Followers */,
-				9CD879CF2A8C029900394225 /* Favorite */,
 				9CD879D32A8C029900394225 /* Search */,
+				9CD879C92A8C029900394225 /* Followers */,
 				9CD879D62A8C029900394225 /* UserInfo */,
+				9CD879CF2A8C029900394225 /* Favorite */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
