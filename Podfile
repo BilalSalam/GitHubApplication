@@ -4,15 +4,17 @@ target 'GitHubApplication' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for GitHubApplication
-
+  pod 'Alamofire'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  
   target 'GitHubApplicationTests' do
     inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'GitHubApplicationUITests' do
-    # Pods for testing
+   
+   pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxTest'
+    pod 'Alamofire'
   end
 
 end
