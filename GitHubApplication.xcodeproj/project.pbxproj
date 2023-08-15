@@ -56,6 +56,12 @@
 		9CD879E02A8C029900394225 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD879D52A8C029900394225 /* SearchViewModel.swift */; };
 		9CD879E12A8C029900394225 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD879D72A8C029900394225 /* UserInfoViewController.swift */; };
 		9CD879E22A8C029900394225 /* UserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD879D82A8C029900394225 /* UserInfoViewModel.swift */; };
+		9CD879E72A8C045500394225 /* GFEmptyStateViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD879E42A8C045500394225 /* GFEmptyStateViewTests.swift */; };
+		9CD879E82A8C045500394225 /* GFItemInfoVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD879E52A8C045500394225 /* GFItemInfoVCTests.swift */; };
+		9CD879E92A8C045500394225 /* GFItemInfoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD879E62A8C045500394225 /* GFItemInfoViewTests.swift */; };
+		9CD879EC2A8C045D00394225 /* GitHubAPIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD879EB2A8C045D00394225 /* GitHubAPIManagerTests.swift */; };
+		9CD879F22A8C046500394225 /* FollowerListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD879EF2A8C046500394225 /* FollowerListViewModelTests.swift */; };
+		9CD879F32A8C046500394225 /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD879F12A8C046500394225 /* SearchViewControllerTests.swift */; };
 		C56452474690BAB21ED5A962 /* Pods_GitHubApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE4AE5BEEE277B875F3CCF6 /* Pods_GitHubApplicationTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +139,12 @@
 		9CD879D52A8C029900394225 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		9CD879D72A8C029900394225 /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		9CD879D82A8C029900394225 /* UserInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewModel.swift; sourceTree = "<group>"; };
+		9CD879E42A8C045500394225 /* GFEmptyStateViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFEmptyStateViewTests.swift; sourceTree = "<group>"; };
+		9CD879E52A8C045500394225 /* GFItemInfoVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFItemInfoVCTests.swift; sourceTree = "<group>"; };
+		9CD879E62A8C045500394225 /* GFItemInfoViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFItemInfoViewTests.swift; sourceTree = "<group>"; };
+		9CD879EB2A8C045D00394225 /* GitHubAPIManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPIManagerTests.swift; sourceTree = "<group>"; };
+		9CD879EF2A8C046500394225 /* FollowerListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowerListViewModelTests.swift; sourceTree = "<group>"; };
+		9CD879F12A8C046500394225 /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
 		D77E0CB80B356910554BABF9 /* Pods_GitHubApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B8AC6E653F42BF905FC960 /* Pods-GitHubApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubApplication.release.xcconfig"; path = "Target Support Files/Pods-GitHubApplication/Pods-GitHubApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +216,9 @@
 		9C8023742A8BFEAC003098DE /* GitHubApplicationTests */ = {
 			isa = PBXGroup;
 			children = (
+				9CD879ED2A8C046500394225 /* Screens */,
+				9CD879EA2A8C045D00394225 /* Networking */,
+				9CD879E32A8C045500394225 /* Custom Views */,
 				9C8023752A8BFEAC003098DE /* GitHubApplicationTests.swift */,
 			);
 			path = GitHubApplicationTests;
@@ -422,6 +437,49 @@
 				9CD879D82A8C029900394225 /* UserInfoViewModel.swift */,
 			);
 			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		9CD879E32A8C045500394225 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				9CD879E42A8C045500394225 /* GFEmptyStateViewTests.swift */,
+				9CD879E52A8C045500394225 /* GFItemInfoVCTests.swift */,
+				9CD879E62A8C045500394225 /* GFItemInfoViewTests.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		9CD879EA2A8C045D00394225 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9CD879EB2A8C045D00394225 /* GitHubAPIManagerTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9CD879ED2A8C046500394225 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9CD879EE2A8C046500394225 /* Followers */,
+				9CD879F02A8C046500394225 /* Search */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9CD879EE2A8C046500394225 /* Followers */ = {
+			isa = PBXGroup;
+			children = (
+				9CD879EF2A8C046500394225 /* FollowerListViewModelTests.swift */,
+			);
+			path = Followers;
+			sourceTree = "<group>";
+		};
+		9CD879F02A8C046500394225 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				9CD879F12A8C046500394225 /* SearchViewControllerTests.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		9DB9CCC2E9D7B6AAA2BB14F7 /* Pods */ = {
@@ -709,7 +767,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD879EC2A8C045D00394225 /* GitHubAPIManagerTests.swift in Sources */,
 				9C8023762A8BFEAC003098DE /* GitHubApplicationTests.swift in Sources */,
+				9CD879E82A8C045500394225 /* GFItemInfoVCTests.swift in Sources */,
+				9CD879E92A8C045500394225 /* GFItemInfoViewTests.swift in Sources */,
+				9CD879F22A8C046500394225 /* FollowerListViewModelTests.swift in Sources */,
+				9CD879F32A8C046500394225 /* SearchViewControllerTests.swift in Sources */,
+				9CD879E72A8C045500394225 /* GFEmptyStateViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
